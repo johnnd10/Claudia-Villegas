@@ -3,23 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Claudia Villegas | Fotografía y videografía profesional para bodas, XV años, 3 años, bautizos, newborn y tomas con dron." />
-  <title>Claudia Villegas | Fotografía & Videografía</title>
+  <title>Claudia Villegas | Fotografía de Sociales</title>
+  <meta
+    name="description"
+    content="Fotografía de sociales, video y drone para bodas, XV años, bautizos, newborn y eventos especiales."
+  />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=13" />
 </head>
+
 <body>
   <header class="site-header" id="top">
-    <a class="brand site-brand" href="#inicio" aria-label="Fotografía de Sociales Claudia Villegas inicio">
+    <a class="brand site-brand" href="#inicio" aria-label="Ir al inicio">
       <span class="site-brand-top">Fotografía de Sociales</span>
       <span class="site-brand-bottom">Claudia Villegas</span>
     </a>
 
-    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
       <span></span>
       <span></span>
       <span></span>
@@ -28,7 +35,7 @@
     <nav class="nav-menu" aria-label="Navegación principal">
       <a href="#inicio">Inicio</a>
       <a href="#servicios">Servicios</a>
-      <a href="#video">Drone & video</a>
+      <a href="#video">Drone & Video</a>
       <a href="#portafolio">Portafolio</a>
       <a href="#sobre-mi">Sobre mí</a>
       <a href="#contacto">Contacto</a>
@@ -37,239 +44,400 @@
   </header>
 
   <main>
-    <section class="hero" id="inicio" aria-label="Carrusel principal de fotografía">
-      <div class="hero-coverflow">
-        <div class="hero-stage" tabindex="0">
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-label="Portada visual">
+      <div class="hero-coverflow reveal">
+        <div class="hero-stage" tabindex="0" aria-label="Carrusel principal">
           <article class="hero-slide is-center">
-            <img src="assets/images/bodas.jpg" alt="Fotografía destacada de bodas" />
+            <img src="assets/images/bodas.jpg" alt="Fotografía de boda por Claudia Villegas" />
           </article>
 
           <article class="hero-slide is-right">
-            <img src="assets/images/xv-anos.jpg" alt="Fotografía destacada de XV años" />
+            <img src="assets/images/xv-anos.jpg" alt="Fotografía de XV años por Claudia Villegas" />
           </article>
 
           <article class="hero-slide is-far-right">
-            <img src="assets/images/tres-anos.jpg" alt="Fotografía destacada de 3 años" />
+            <img src="assets/images/tres-anos.jpg" alt="Fotografía infantil por Claudia Villegas" />
           </article>
 
           <article class="hero-slide is-far-left">
-            <img src="assets/images/bautizo.jpg" alt="Fotografía destacada de bautizo" />
+            <img src="assets/images/bautizo.jpg" alt="Fotografía de bautizo por Claudia Villegas" />
           </article>
 
           <article class="hero-slide is-left">
-            <img src="assets/images/newborn.jpg" alt="Fotografía destacada de newborn" />
+            <img src="assets/images/newborn.jpg" alt="Fotografía newborn por Claudia Villegas" />
           </article>
         </div>
       </div>
     </section>
 
+    <!-- SERVICIOS + PAQUETES -->
     <section class="services section-padding" id="servicios">
       <div class="services-intro reveal">
         <p class="eyebrow">Servicios</p>
-        <h2>Servicios y paquetes</h2>
+        <h2>Tres formas de contar tu evento</h2>
       </div>
 
-      <div class="service-strip reveal delay-1">
-        <article class="service-card">
-          <span>01</span>
+      <div class="service-strip">
+        <article class="service-card reveal" tabindex="0">
           <h3>Fotografía</h3>
-          <p>Cobertura profesional para sesiones, eventos y recuerdos impresos.</p>
+          <p>
+            Sesiones y cobertura profesional para bodas, XV años, bautizos, newborn,
+            retratos familiares y celebraciones especiales.
+          </p>
         </article>
 
-        <article class="service-card">
-          <span>02</span>
+        <article class="service-card reveal delay-1" tabindex="0">
           <h3>Video</h3>
-          <p>Grabación, edición, video clip y semblanza para eventos especiales.</p>
+          <p>
+            Cobertura en movimiento para conservar ambiente, emociones, detalles y
+            momentos clave del evento.
+          </p>
         </article>
 
-        <article class="service-card accent">
-          <span>03</span>
+        <article class="service-card accent reveal delay-2" tabindex="0">
           <h3>Drone</h3>
-          <p>Tomas aéreas para templo, recepción, locaciones y momentos clave.</p>
+          <p>
+            Tomas aéreas para mostrar locaciones, entradas, espacios y una vista
+            cinematográfica del evento.
+          </p>
         </article>
       </div>
 
-      <div class="packages reveal delay-2">
-        <div class="packages-heading">
-          <p class="eyebrow">Paquetes XV años</p>
-          <h3>Opciones principales</h3>
+      <div class="packages-panel" id="paquetes">
+        <div class="packages-header reveal">
+          <p class="eyebrow">Paquetes y adicionales</p>
+          <h2>Opciones para tu evento</h2>
         </div>
 
-        <div class="package-grid">
-          <article class="package-card">
-            <div class="package-topline">
-              <p>Paquete 1</p>
-              <strong>$6,800</strong>
-            </div>
-
-            <div class="package-columns">
-              <div>
-                <h4>Fotos</h4>
-                <ul>
-                  <li>1 sesión</li>
-                  <li>1 ampliación 40x50 ctms</li>
-                  <li>70 fotos</li>
-                  <li>10x15 ctms impresas y digitales</li>
-                  <li>Marco incluido</li>
-                  <li>Tripie sin costo</li>
-                </ul>
+        <div class="packages-rail-wrap reveal delay-1">
+          <div class="packages-rail" aria-label="Paquetes disponibles">
+            <!-- PAQUETE 1 -->
+            <article class="package-card">
+              <div class="package-card__top">
+                <p class="package-card__label">Paquete 1</p>
+                <p class="package-card__price">$6,800</p>
               </div>
 
-              <div>
-                <h4>Video</h4>
-                <ul>
-                  <li>Video grabación</li>
-                  <li>4 horas</li>
-                  <li>Misa y fiesta</li>
-                  <li>Edición 60 minutos</li>
-                  <li>Video clip semblanza</li>
-                  <li>Semblanza con 30 fotos</li>
-                  <li>1 USB Full HD</li>
-                </ul>
-              </div>
-            </div>
-          </article>
+              <h3 class="package-card__name">Mis XV Años</h3>
 
-          <article class="package-card featured">
-            <div class="package-topline">
-              <p>Paquete 2</p>
-              <strong>$7,800</strong>
-            </div>
-
-            <div class="package-columns">
-              <div>
-                <h4>Fotos</h4>
-                <ul>
-                  <li>1 sesión</li>
-                  <li>1 ampliación 40x50 ctms</li>
-                  <li>100 fotos</li>
-                  <li>10x15 ctms impresas y digitales</li>
-                  <li>Marco incluido</li>
-                  <li>Tripie sin costo</li>
-                </ul>
+              <div class="package-card__summary">
+                <span>70 fotos</span>
+                <span>Video 4 horas</span>
+                <span>USB Full HD</span>
               </div>
 
-              <div>
-                <h4>Video</h4>
-                <ul>
-                  <li>Video grabación</li>
-                  <li>5 horas</li>
-                  <li>Casa, misa y fiesta</li>
-                  <li>Edición 90 minutos</li>
-                  <li>Video clip semblanza</li>
-                  <li>Semblanza con 50 fotos</li>
-                  <li>1 USB Full HD</li>
-                </ul>
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns">
+                  <div>
+                    <h4>Fotos</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>1 ampliación 40×50 ctms</li>
+                      <li>70 fotos</li>
+                      <li>10×15 ctms impresas y digitales</li>
+                      <li>Marco incluido</li>
+                      <li>Tripie sin costo</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4>Video</h4>
+                    <ul>
+                      <li>Video grabación</li>
+                      <li>4 horas</li>
+                      <li>Misa y fiesta</li>
+                      <li>Edición 60 minutos</li>
+                      <li>Video clip semblanza</li>
+                      <li>Semblanza con 30 fotos</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <!-- PAQUETE 2 -->
+            <article class="package-card package-card--featured">
+              <div class="package-card__top">
+                <p class="package-card__label">Paquete 2</p>
+                <p class="package-card__price">$7,800</p>
               </div>
-            </div>
-          </article>
 
-          <article class="package-card">
-            <div class="package-topline">
-              <p>Paquete 3</p>
-              <strong>$8,500</strong>
-            </div>
+              <h3 class="package-card__name">Mis XV Años</h3>
 
-            <div class="package-columns">
-              <div>
-                <h4>Fotos</h4>
-                <ul>
-                  <li>1 sesión</li>
-                  <li>1 ampliación 40x50 ctms</li>
-                  <li>150 fotos</li>
-                  <li>10x15 ctm</li>
-                  <li>Marco incluido</li>
-                  <li>Tripie sin costo</li>
-                </ul>
+              <div class="package-card__summary">
+                <span>100 fotos</span>
+                <span>Video 5 horas</span>
+                <span>Casa, misa y fiesta</span>
               </div>
 
-              <div>
-                <h4>Video</h4>
-                <ul>
-                  <li>Video grabación</li>
-                  <li>5 horas</li>
-                  <li>Casa, misa y fiesta</li>
-                  <li>Edición 2 hrs.</li>
-                  <li>Video clip</li>
-                  <li>Semblanza con 50 fotos</li>
-                  <li>1 USB Full HD</li>
-                </ul>
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns">
+                  <div>
+                    <h4>Fotos</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>1 ampliación 40×50 ctms</li>
+                      <li>100 fotos</li>
+                      <li>10×15 ctms impresas y digitales</li>
+                      <li>Marco incluido</li>
+                      <li>Tripie sin costo</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4>Video</h4>
+                    <ul>
+                      <li>Video grabación</li>
+                      <li>5 horas</li>
+                      <li>Casa, misa y fiesta</li>
+                      <li>Edición 90 minutos</li>
+                      <li>Video clip semblanza</li>
+                      <li>Semblanza con 50 fotos</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <!-- PAQUETE 3 -->
+            <article class="package-card">
+              <div class="package-card__top">
+                <p class="package-card__label">Paquete 3</p>
+                <p class="package-card__price">$8,500</p>
               </div>
-            </div>
-          </article>
-        </div>
 
-        <div class="extras-heading">
-          <p class="eyebrow">Extras</p>
-          <h3>Complementos para tu evento</h3>
-        </div>
+              <h3 class="package-card__name">Mis XV Años</h3>
 
-        <div class="extras-grid">
-          <article class="extra-card">
-            <span>Tomas de drone</span>
-            <h4>Templo y recepción</h4>
-            <p>$2,800</p>
-          </article>
+              <div class="package-card__summary">
+                <span>150 fotos</span>
+                <span>Video 5 horas</span>
+                <span>Edición 2 hrs.</span>
+              </div>
 
-          <article class="extra-card">
-            <span>Sesión XV años</span>
-            <h4>Renta de yegua</h4>
-            <p>$1,700</p>
-          </article>
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
 
-          <article class="extra-card">
-            <span>Lo mejor para tu evento</span>
-            <h4>Cuadro / collage</h4>
-            <p>12 fotos · $800</p>
-          </article>
+                <div class="package-card__columns">
+                  <div>
+                    <h4>Fotos</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>1 ampliación 40×50 ctms</li>
+                      <li>150 fotos</li>
+                      <li>10×15 ctm</li>
+                      <li>Marco incluido</li>
+                      <li>Tripie sin costo</li>
+                    </ul>
+                  </div>
 
-          <article class="extra-card dark">
-            <span>Mis XV</span>
-            <h4>Álbum digital</h4>
-            <p>100 fotos · Ampliación 40x50 · Video 5 horas Full HD · Tomas de drone · $12,500</p>
-          </article>
+                  <div>
+                    <h4>Video</h4>
+                    <ul>
+                      <li>Video grabación</li>
+                      <li>5 horas</li>
+                      <li>Casa, misa y fiesta</li>
+                      <li>Edición 2 hrs.</li>
+                      <li>Video clip semblanza</li>
+                      <li>Semblanza con 50 fotos</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <!-- ALBUM DIGITAL -->
+            <article class="package-card package-card--featured">
+              <div class="package-card__top">
+                <p class="package-card__label">Paquete especial</p>
+                <p class="package-card__price">$12,500</p>
+              </div>
+
+              <h3 class="package-card__name">Mis XV Álbum Digital</h3>
+
+              <div class="package-card__summary">
+                <span>100 fotos</span>
+                <span>Video 5 horas Full HD</span>
+                <span>Tomas de dron</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns package-card__columns--single">
+                  <div>
+                    <h4>Incluye</h4>
+                    <ul>
+                      <li>Álbum digital</li>
+                      <li>100 fotos</li>
+                      <li>Ampliación 40×50 ctm</li>
+                      <li>Video</li>
+                      <li>Grabación 5 horas Full HD</li>
+                      <li>Tomas de dron</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <!-- DRON -->
+            <article class="package-card">
+              <div class="package-card__top">
+                <p class="package-card__label">Adicional</p>
+                <p class="package-card__price">$2,800</p>
+              </div>
+
+              <h3 class="package-card__name">Tomas con Dron</h3>
+
+              <div class="package-card__summary">
+                <span>Templo</span>
+                <span>Recepción</span>
+                <span>Tomas aéreas</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns package-card__columns--single">
+                  <div>
+                    <h4>Incluye</h4>
+                    <ul>
+                      <li>Tomas con dron</li>
+                      <li>Templo y recepción</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <!-- YEGUA -->
+            <article class="package-card">
+              <div class="package-card__top">
+                <p class="package-card__label">Adicional</p>
+                <p class="package-card__price">$1,700</p>
+              </div>
+
+              <h3 class="package-card__name">Renta de Yegua</h3>
+
+              <div class="package-card__summary">
+                <span>Sesión 15 años</span>
+                <span>Renta de yegua</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns package-card__columns--single">
+                  <div>
+                    <h4>Incluye</h4>
+                    <ul>
+                      <li>Renta de yegua</li>
+                      <li>Sesión 15 años</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <!-- 12 FOTOS -->
+            <article class="package-card">
+              <div class="package-card__top">
+                <p class="package-card__label">Adicional</p>
+                <p class="package-card__price">$800</p>
+              </div>
+
+              <h3 class="package-card__name">Lo Mejor para tu Evento</h3>
+
+              <div class="package-card__summary">
+                <span>12 fotos</span>
+                <span>Recuerdo especial</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns package-card__columns--single">
+                  <div>
+                    <h4>Incluye</h4>
+                    <ul>
+                      <li>12 fotos</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- VIDEO -->
     <section class="video-section section-padding" id="video">
       <div class="video-kicker reveal">
-        <p class="eyebrow">Drone & video</p>
+        <p class="eyebrow">Drone & Video</p>
       </div>
 
       <div class="video-grid reveal delay-1">
-        <button class="video-card video-trigger" type="button" data-video="assets/videos/drone-preview.mp4" aria-label="Reproducir video destacado">
+        <button
+          class="video-card video-trigger"
+          type="button"
+          data-video="assets/videos/drone-preview.mp4"
+          aria-label="Reproducir video destacado"
+        >
           <video class="video-preview" autoplay muted loop playsinline preload="metadata">
-            <source src="assets/videos/drone-preview.mp4" type="video/mp4">
+            <source src="assets/videos/drone-preview.mp4" type="video/mp4" />
           </video>
         </button>
 
-        <button class="video-card video-trigger" type="button" data-video="assets/videos/drone-xv-anos-1.mp4" aria-label="Reproducir video XV años 1">
+        <button
+          class="video-card video-trigger"
+          type="button"
+          data-video="assets/videos/drone-xv-anos-1.mp4"
+          aria-label="Reproducir video XV años 1"
+        >
           <video class="video-preview" autoplay muted loop playsinline preload="metadata">
-            <source src="assets/videos/drone-xv-anos-1.mp4" type="video/mp4">
+            <source src="assets/videos/drone-xv-anos-1.mp4" type="video/mp4" />
           </video>
         </button>
 
-        <button class="video-card video-trigger" type="button" data-video="assets/videos/drone-xv-anos-2.mp4" aria-label="Reproducir video XV años 2">
+        <button
+          class="video-card video-trigger"
+          type="button"
+          data-video="assets/videos/drone-xv-anos-2.mp4"
+          aria-label="Reproducir video XV años 2"
+        >
           <video class="video-preview" autoplay muted loop playsinline preload="metadata">
-            <source src="assets/videos/drone-xv-anos-2.mp4" type="video/mp4">
+            <source src="assets/videos/drone-xv-anos-2.mp4" type="video/mp4" />
           </video>
         </button>
 
-        <button class="video-card video-trigger" type="button" data-video="assets/videos/drone-xv-anos-3.mp4" aria-label="Reproducir video XV años 3">
+        <button
+          class="video-card video-trigger"
+          type="button"
+          data-video="assets/videos/drone-xv-anos-3.mp4"
+          aria-label="Reproducir video XV años 3"
+        >
           <video class="video-preview" autoplay muted loop playsinline preload="metadata">
-            <source src="assets/videos/drone-xv-anos-3.mp4" type="video/mp4">
+            <source src="assets/videos/drone-xv-anos-3.mp4" type="video/mp4" />
           </video>
         </button>
       </div>
     </section>
 
+    <!-- PORTAFOLIO -->
     <section class="portfolio section-padding" id="portafolio">
       <div class="portfolio-kicker reveal">
         <p class="eyebrow">Portafolio</p>
       </div>
 
-      <div class="gallery-tabs reveal delay-1" id="gallery-tabs" aria-label="Categorías de galería">
+      <div class="gallery-tabs reveal delay-1" role="tablist" aria-label="Categorías de portafolio">
         <button class="gallery-tab active" type="button" data-category="bodas">Bodas</button>
         <button class="gallery-tab" type="button" data-category="xv-anos">XV años</button>
         <button class="gallery-tab" type="button" data-category="tres-anos">3 años</button>
@@ -279,11 +447,14 @@
 
       <div class="gallery-grid reveal delay-2" id="gallery-grid" aria-live="polite"></div>
 
-      <div class="gallery-actions" id="gallery-actions">
-        <button class="button gallery-more" type="button" id="gallery-more-button">Ver más fotografías</button>
+      <div class="gallery-actions reveal">
+        <button class="button gallery-more" type="button" id="gallery-load-more">
+          Ver más fotografías
+        </button>
       </div>
     </section>
 
+    <!-- SOBRE MI -->
     <section class="about section-padding" id="sobre-mi">
       <div class="about-image reveal">
         <img src="assets/images/claudia.jpg" alt="Retrato de Claudia Villegas" />
@@ -293,11 +464,18 @@
         <p class="eyebrow">Sobre mí</p>
         <h2>Claudia Villegas</h2>
         <h3>Fotografía & videografía profesional</h3>
-
-        <p>Soy una fotógrafa comprometida con capturar la esencia de cada historia a través de imágenes elegantes, emotivas y atemporales. Mi amplia experiencia me permite combinar técnica, creatividad y una visión moderna para crear recuerdos que conservan su valor con el paso del tiempo. Cada sesión es planeada y realizada con dedicación, profesionalismo y atención personalizada, garantizando una experiencia única y resultados excepcionales.</p>
+        <p>
+          Soy una fotógrafa comprometida con capturar la esencia de cada historia a través de
+          imágenes elegantes, emotivas y atemporales. Mi amplia experiencia me permite combinar
+          técnica, creatividad y una visión moderna para crear recuerdos que conservan su valor
+          con el paso del tiempo. Cada sesión es planeada y realizada con dedicación,
+          profesionalismo y atención personalizada, garantizando una experiencia única y
+          resultados excepcionales.
+        </p>
       </div>
     </section>
 
+    <!-- CONTACTO -->
     <section class="booking section-padding" id="reservar">
       <span class="anchor-alias" id="contacto"></span>
 
@@ -305,10 +483,13 @@
         <div class="booking-panel reveal">
           <p class="eyebrow">Reservar</p>
           <h2>Reserva tu sesión</h2>
-          <p>Cuéntame qué tipo de cobertura necesitas y te ayudo a preparar una opción adecuada para tu evento.</p>
+          <p>
+            Comparte los detalles de tu evento y Claudia podrá orientarte sobre disponibilidad,
+            paquetes y la cobertura ideal para tu celebración.
+          </p>
 
           <div class="booking-details">
-            <a href="https://wa.me/524775811873" target="_blank" rel="noopener">
+            <a href="https://wa.me/524775811873" target="_blank" rel="noreferrer">
               <span>WhatsApp</span>
               <strong>477 581 18 73</strong>
             </a>
@@ -318,7 +499,7 @@
               <strong>fotoestudioclaudy05@gmail.com</strong>
             </a>
 
-            <a href="https://www.instagram.com/clauvip05/" target="_blank" rel="noopener">
+            <a href="https://www.instagram.com/clauvip05/" target="_blank" rel="noreferrer">
               <span>Instagram</span>
               <strong>@clauvip05</strong>
             </a>
@@ -328,34 +509,40 @@
         <form class="contact-form reveal delay-1" id="whatsapp-form">
           <label>
             Nombre
-            <input type="text" name="nombre" placeholder="Tu nombre" required />
+            <input type="text" name="name" placeholder="Tu nombre" required />
           </label>
 
           <label>
             Correo
-            <input type="email" name="correo" placeholder="tu@email.com" required />
+            <input type="email" name="email" placeholder="tu@email.com" required />
           </label>
 
           <label>
             Tipo de evento
-            <select name="servicio" required>
+            <select name="event" required>
               <option value="">Selecciona una opción</option>
-              <option>Bodas</option>
-              <option>XV años</option>
-              <option>3 años</option>
-              <option>Bautizo</option>
-              <option>Newborn</option>
-              <option>Drone / video</option>
-              <option>Otro evento</option>
+              <option value="Boda">Boda</option>
+              <option value="XV años">XV años</option>
+              <option value="3 años">3 años</option>
+              <option value="Bautizo">Bautizo</option>
+              <option value="Newborn">Newborn</option>
+              <option value="Otro evento">Otro evento</option>
             </select>
           </label>
 
           <label>
             Mensaje
-            <textarea name="mensaje" rows="4" placeholder="Cuéntame qué necesitas" required></textarea>
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Cuéntanos fecha, lugar y detalles importantes"
+              required
+            ></textarea>
           </label>
 
-          <p class="form-note">Al enviar, se abrirá WhatsApp con tu mensaje listo para mandar.</p>
+          <p class="form-note">
+            Al enviar, se abrirá WhatsApp con tu mensaje listo para enviarse.
+          </p>
 
           <button class="button primary" type="submit">Enviar por WhatsApp</button>
         </form>
@@ -363,18 +550,20 @@
     </section>
   </main>
 
+  <!-- IMAGE LIGHTBOX -->
   <div class="lightbox" id="gallery-lightbox" aria-hidden="true">
     <button class="lightbox-close" type="button" aria-label="Cerrar galería">×</button>
-    <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Foto anterior">‹</button>
+    <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Imagen anterior">‹</button>
 
     <div class="lightbox-content">
       <img id="lightbox-image" src="" alt="Vista ampliada de fotografía" />
       <p id="lightbox-caption"></p>
     </div>
 
-    <button class="lightbox-arrow lightbox-next" type="button" aria-label="Foto siguiente">›</button>
+    <button class="lightbox-arrow lightbox-next" type="button" aria-label="Imagen siguiente">›</button>
   </div>
 
+  <!-- VIDEO MODAL -->
   <div class="video-modal" id="video-modal" aria-hidden="true">
     <button class="video-modal-close" type="button" aria-label="Cerrar video">×</button>
 
@@ -388,7 +577,7 @@
     <a href="#inicio">Volver arriba</a>
   </footer>
 
-  <script src="gallery-data.js"></script>
-  <script src="script.js"></script>
+  <script src="gallery-data.js?v=12"></script>
+  <script src="script.js?v=12"></script>
 </body>
 </html>
