@@ -114,9 +114,212 @@
           <h2>Opciones para tu evento</h2>
         </div>
 
-        <div class="packages-rail-wrap reveal delay-1">
-          <div class="packages-rail" aria-label="Paquetes y adicionales disponibles">
-            <article class="package-card">
+        <div class="package-tabs reveal delay-1" aria-label="Categorías de paquetes">
+          <button class="package-tab active" type="button" data-package-category="bodas">Bodas</button>
+          <button class="package-tab" type="button" data-package-category="xv-anos">XV Años</button>
+          <button class="package-tab" type="button" data-package-category="adicionales">Adicionales</button>
+        </div>
+
+        <div class="packages-rail-wrap reveal delay-2">
+          <div class="packages-rail" id="packages-rail" aria-label="Paquetes y adicionales disponibles">
+            <article class="package-card" data-package-category="bodas">
+              <div class="package-card__top">
+                <p class="package-card__label">Boda</p>
+                <p class="package-card__price">$7,800</p>
+              </div>
+
+              <h3 class="package-card__name">Nuestra Boda</h3>
+
+              <div class="package-card__summary">
+                <span>100 fotos</span>
+                <span>Video 5 horas</span>
+                <span>USB Full HD</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns">
+                  <div>
+                    <h4>Fotos</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>100 fotos 10×15 cm (impresas y digitales)</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>Marco incluido</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4>Video</h4>
+                    <ul>
+                      <li>Video grabación 5 horas (Misa y fiesta)</li>
+                      <li>Edición 90 minutos</li>
+                      <li>Video clip semblanza</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <article class="package-card" data-package-category="bodas">
+              <div class="package-card__top">
+                <p class="package-card__label">Boda</p>
+                <p class="package-card__price">$6,800</p>
+              </div>
+
+              <h3 class="package-card__name">Paquete de Boda</h3>
+
+              <div class="package-card__summary">
+                <span>50 fotos</span>
+                <span>Video 4 horas</span>
+                <span>Tripié sin costo</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns">
+                  <div>
+                    <h4>Fotos</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>50 fotos 10×15 cm (impresas y digitales)</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>Marco incluido</li>
+                      <li>Tripié sin costo</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4>Video</h4>
+                    <ul>
+                      <li>Video grabación 4 horas (Misa y fiesta)</li>
+                      <li>Edición 60 minutos</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <article class="package-card package-card--featured" data-package-category="bodas">
+              <div class="package-card__top">
+                <p class="package-card__label">Boda · Álbum</p>
+                <p class="package-card__price">$12,500</p>
+              </div>
+
+              <h3 class="package-card__name">Álbum Personalizado</h3>
+
+              <div class="package-card__summary">
+                <span>130 fotos</span>
+                <span>Álbum personalizado</span>
+                <span>Tomas de dron</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns package-card__columns--single">
+                  <div>
+                    <h4>Incluye</h4>
+                    <ul>
+                      <li>1 álbum personalizado</li>
+                      <li>130 fotos</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>Tomas con dron</li>
+                      <li>Video grabación (Casa, misa y fiesta)</li>
+                      <li>Video clip semblanza</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <article class="package-card" data-package-category="bodas">
+              <div class="package-card__top">
+                <p class="package-card__label">Boda</p>
+                <p class="package-card__price">$9,600</p>
+              </div>
+
+              <h3 class="package-card__name">Nuestra Boda</h3>
+
+              <div class="package-card__summary">
+                <span>Álbum 100 fotos</span>
+                <span>Video 5 horas</span>
+                <span>Casa, misa y fiesta</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns">
+                  <div>
+                    <h4>Fotos</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>1 álbum con 100 fotos</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>Marco incluido</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4>Video</h4>
+                    <ul>
+                      <li>Video grabación 5 horas (Casa, misa y fiesta)</li>
+                      <li>Edición 2 horas</li>
+                      <li>Video clip semblanza</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <article class="package-card" data-package-category="bodas">
+              <div class="package-card__top">
+                <p class="package-card__label">Boda</p>
+                <p class="package-card__price">$8,800</p>
+              </div>
+
+              <h3 class="package-card__name">Nuestra Boda</h3>
+
+              <div class="package-card__summary">
+                <span>150 fotos</span>
+                <span>Video 5 horas</span>
+                <span>USB Full HD</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns">
+                  <div>
+                    <h4>Fotos</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>150 fotos 10×15 cm (impresas y digitales)</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>Marco incluido</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4>Video</h4>
+                    <ul>
+                      <li>Video grabación 5 horas (Casa, misa y fiesta)</li>
+                      <li>Edición 90 minutos</li>
+                      <li>Video clip semblanza</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <article class="package-card" data-package-category="xv-anos">
               <div class="package-card__top">
                 <p class="package-card__label">Paquete 1</p>
                 <p class="package-card__price">$6,800</p>
@@ -138,9 +341,8 @@
                     <h4>Fotos</h4>
                     <ul>
                       <li>1 sesión</li>
-                      <li>1 ampliación 40×50 ctms</li>
-                      <li>70 fotos</li>
-                      <li>10×15 ctms impresas y digitales</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>70 fotos 10×15 cm (impresas y digitales)</li>
                       <li>Marco incluido</li>
                       <li>Tripie sin costo</li>
                     </ul>
@@ -149,12 +351,9 @@
                   <div>
                     <h4>Video</h4>
                     <ul>
-                      <li>Video grabación</li>
-                      <li>4 horas</li>
-                      <li>Misa y fiesta</li>
+                      <li>Video grabación 4 horas (Misa y fiesta)</li>
                       <li>Edición 60 minutos</li>
-                      <li>Video clip semblanza</li>
-                      <li>Semblanza con 30 fotos</li>
+                      <li>Video clip semblanza (30 fotos)</li>
                       <li>1 USB Full HD</li>
                     </ul>
                   </div>
@@ -162,7 +361,7 @@
               </details>
             </article>
 
-            <article class="package-card package-card--featured">
+            <article class="package-card package-card--featured" data-package-category="xv-anos">
               <div class="package-card__top">
                 <p class="package-card__label">Paquete 2</p>
                 <p class="package-card__price">$7,800</p>
@@ -184,9 +383,8 @@
                     <h4>Fotos</h4>
                     <ul>
                       <li>1 sesión</li>
-                      <li>1 ampliación 40×50 ctms</li>
-                      <li>100 fotos</li>
-                      <li>10×15 ctms impresas y digitales</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>100 fotos 10×15 cm (impresas y digitales)</li>
                       <li>Marco incluido</li>
                       <li>Tripie sin costo</li>
                     </ul>
@@ -195,12 +393,9 @@
                   <div>
                     <h4>Video</h4>
                     <ul>
-                      <li>Video grabación</li>
-                      <li>5 horas</li>
-                      <li>Casa, misa y fiesta</li>
+                      <li>Video grabación 5 horas (Casa, misa y fiesta)</li>
                       <li>Edición 90 minutos</li>
-                      <li>Video clip semblanza</li>
-                      <li>Semblanza con 50 fotos</li>
+                      <li>Video clip semblanza (50 fotos)</li>
                       <li>1 USB Full HD</li>
                     </ul>
                   </div>
@@ -208,7 +403,7 @@
               </details>
             </article>
 
-            <article class="package-card">
+            <article class="package-card" data-package-category="xv-anos">
               <div class="package-card__top">
                 <p class="package-card__label">Paquete 3</p>
                 <p class="package-card__price">$8,500</p>
@@ -230,9 +425,8 @@
                     <h4>Fotos</h4>
                     <ul>
                       <li>1 sesión</li>
-                      <li>1 ampliación 40×50 ctms</li>
-                      <li>150 fotos</li>
-                      <li>10×15 ctm</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>150 fotos 10×15 cm (impresas y digitales)</li>
                       <li>Marco incluido</li>
                       <li>Tripie sin costo</li>
                     </ul>
@@ -241,12 +435,9 @@
                   <div>
                     <h4>Video</h4>
                     <ul>
-                      <li>Video grabación</li>
-                      <li>5 horas</li>
-                      <li>Casa, misa y fiesta</li>
+                      <li>Video grabación 5 horas (Casa, misa y fiesta)</li>
                       <li>Edición 2 hrs.</li>
-                      <li>Video clip semblanza</li>
-                      <li>Semblanza con 50 fotos</li>
+                      <li>Video clip semblanza (50 fotos)</li>
                       <li>1 USB Full HD</li>
                     </ul>
                   </div>
@@ -254,13 +445,13 @@
               </details>
             </article>
 
-            <article class="package-card package-card--featured">
+            <article class="package-card package-card--featured" data-package-category="xv-anos">
               <div class="package-card__top">
                 <p class="package-card__label">Paquete especial</p>
                 <p class="package-card__price">$12,500</p>
               </div>
 
-              <h3 class="package-card__name">Mis XV Álbum Digital</h3>
+              <h3 class="package-card__name">Álbum Digital Premium</h3>
 
               <div class="package-card__summary">
                 <span>100 fotos</span>
@@ -277,9 +468,9 @@
                     <ul>
                       <li>Álbum digital</li>
                       <li>100 fotos</li>
-                      <li>Ampliación 40×50 ctm</li>
-                      <li>Video</li>
-                      <li>Grabación 5 horas Full HD</li>
+                      <li>Ampliación 40×50 cm</li>
+                      <li>Video grabación 5 horas</li>
+                      <li>Entrega Full HD</li>
                       <li>Tomas de dron</li>
                     </ul>
                   </div>
@@ -287,7 +478,40 @@
               </details>
             </article>
 
-            <article class="package-card">
+            <article class="package-card" data-package-category="xv-anos">
+              <div class="package-card__top">
+                <p class="package-card__label">Económico</p>
+                <p class="package-card__price">$5,500</p>
+              </div>
+
+              <h3 class="package-card__name">Paquete Económico</h3>
+
+              <div class="package-card__summary">
+                <span>100 fotos digitales</span>
+                <span>30 impresas</span>
+                <span>Video 4 horas</span>
+              </div>
+
+              <details class="package-card__details">
+                <summary>Ver detalles</summary>
+
+                <div class="package-card__columns package-card__columns--single">
+                  <div>
+                    <h4>Incluye</h4>
+                    <ul>
+                      <li>1 sesión</li>
+                      <li>100 fotos digitales</li>
+                      <li>30 fotos impresas 10×15 cm</li>
+                      <li>1 ampliación 40×50 cm</li>
+                      <li>Video grabación 4 horas</li>
+                      <li>1 USB Full HD</li>
+                    </ul>
+                  </div>
+                </div>
+              </details>
+            </article>
+
+            <article class="package-card" data-package-category="adicionales">
               <div class="package-card__top">
                 <p class="package-card__label">Adicional</p>
                 <p class="package-card__price">$2,800</p>
@@ -316,7 +540,7 @@
               </details>
             </article>
 
-            <article class="package-card">
+            <article class="package-card" data-package-category="adicionales">
               <div class="package-card__top">
                 <p class="package-card__label">Adicional</p>
                 <p class="package-card__price">$1,700</p>
@@ -344,7 +568,7 @@
               </details>
             </article>
 
-            <article class="package-card">
+            <article class="package-card" data-package-category="adicionales">
               <div class="package-card__top">
                 <p class="package-card__label">Adicional</p>
                 <p class="package-card__price">$800</p>
